@@ -232,20 +232,20 @@ by one with a target 500000.*/
 
 void process4()
 
-{
+  {
 
-int p = 0;
+    int p = 0;
 
-while (p < 500000)
+    while (p < 500000)
 
-{
+  {
 
-total->value = total->value + 1;
+        total->value = total->value + 1;
 
-p++;
+        p++;
 
-}
+    }
 
-printf(" From process4 total = %dn", total->value);
+    printf(" From process4 total = %dn", total->value);
 
 }
